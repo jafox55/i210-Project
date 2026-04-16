@@ -105,3 +105,98 @@
   font-weight: 900;
   font-style: italic;
 }
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f6f6f6;
+  color: #111;
+}
+
+/* NAV */
+nav {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.links a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #111;
+  font-size: 0.9rem;
+}
+
+.hero{
+  margin: 2rem 0;
+}
+
+/* SECTIONS */
+.section {
+  padding: 2rem;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+/* CARDS */
+.card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  background: white;
+}
+
+/* DETAILS */
+.details-box {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  background: white;
+}
+
+.image-placeholder {
+  height: 200px;
+  background: #eaeaea;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* FORM */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 400px;
+}
+
+input, textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+/* BUTTON */
+.btn {
+  padding: 0.5rem;
+  border: 1px solid #111;
+  background: none;
+  cursor: pointer;
+}
+
+/* SMALL TEXT */
+.small {
+  font-size: 0.8rem;
+  color: #555;
+}
+
